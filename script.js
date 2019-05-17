@@ -84,6 +84,7 @@ class Juego {
     this.colores.yellow.addEventListener("click", this.elegirColor);
     this.colores.green.addEventListener("click", this.elegirColor);
   }
+
   eliminarEventosClick() {
     this.colores.red.removeEventListener("click", this.elegirColor);
     this.colores.blue.removeEventListener("click", this.elegirColor);
