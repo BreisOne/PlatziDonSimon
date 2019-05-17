@@ -5,7 +5,7 @@ const blue = document.getElementById("blue");
 const yellow = document.getElementById("yellow");
 const green = document.getElementById("green");
 const btnEmpezar = document.getElementById("btnEmpezar");
-const ULTIMO_NIVEL = 1
+const ULTIMO_NIVEL = 10
 
 class Juego {
   constructor() {
@@ -20,7 +20,7 @@ class Juego {
     this.siguienteNivel = this.siguienteNivel.bind(this);
     this.elegirColor = this.elegirColor.bind(this);
     btnEmpezar.classList.toggle('hide');
-    this.nivel = 10;
+    this.nivel = 1;
     this.colores = {
       red,
       blue,
