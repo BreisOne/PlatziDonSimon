@@ -14,7 +14,7 @@ class Juego {
     this.generarSecuencia();
     setTimeout(this.siguienteNivel, 500)
   }
-  
+
   inicializar() {
     // this pasa a ser el boton clicado en lugar del juego, se reasigna this=juego con .bind(this)
     this.siguienteNivel = this.siguienteNivel.bind(this);
